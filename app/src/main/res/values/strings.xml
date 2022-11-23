@@ -1,0 +1,38 @@
+<!--
+  ~ Copyright (c) 2022
+  ~ David de Andrés and Juan Carlos Ruiz
+  ~ Development of apps for mobile devices
+  ~ Universitat Politècnica de València
+  -->
+
+<resources>
+    <string name="app_name">Ex07_Widgets</string>
+    <!-- Strings for TextFieldsActivity -->
+    <string name="text_string">Text fields</string>
+    <string name="buttons">Buttons</string>
+    <string name="widgets">Widgets</string>
+    <string name="label">This is just a label</string>
+    <string name="label_icon">This label also has an icon attached</string>
+    <string name="regular">You can write whatever you want!</string>
+    <string name="password">Guess the password!</string>
+    <string name="datetime">Write date and time</string>
+    <string name="multiline">Multiple lines are allowed here!</string>
+    <string name="failed">The password does not match DADM</string>
+    <!-- Strings for ButtonsActivity -->
+    <string name="regular_button">Just a regular button</string>
+    <string name="save">Save</string>
+    <string name="on">ToggleButton is ON</string>
+    <string name="off">ToggleButton is OFF</string>
+    <string name="check">This CheckBox is checked by default</string>
+    <string name="switch_text">This Switch is unchecked by default</string>
+    <string name="radio1">RadioButton for 1st option</string>
+    <string name="radio2">RadioButton for 2nd option</string>
+    <string name="radio3">RadioButton for 3rd option</string>
+    <!-- use getString(R.string.switch_message, isChecked?"":"un") to get checked/unchecked -->
+    <string name="switch_message">The switch is now %1schecked</string>
+    <!-- Strings for WidgetsActivity -->
+    <string name="image_description">Default Android icon</string>
+    <string name="control_progress">Indeterminate ProgressBar</string>
+    <string name="message_progress">Current progress is %1$d out of %2$d</string>
+    <string name="message_rating">Current rating is %1$.1f</string>
+</resources>
