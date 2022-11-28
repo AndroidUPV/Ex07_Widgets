@@ -16,6 +16,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="8dp"
         android:orientation="vertical">
 
         <!-- Label displaying some text in bigger size and coloured -->
@@ -23,7 +24,6 @@
             android:id="@+id/tvLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/label"
             android:textColor="@color/purple_500"
             android:textSize="24sp" />
@@ -33,7 +33,6 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:text="@string/label_icon"
             android:textSize="20sp"
             app:drawableStartCompat="@android:drawable/ic_dialog_alert"
@@ -44,7 +43,6 @@
             android:id="@+id/etRegular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:hint="@string/regular"
             android:importantForAutofill="no"
             android:inputType="textAutoCorrect" />
@@ -56,7 +54,6 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:hint="@string/password"
             android:importantForAutofill="no"
             android:inputType="textPassword" />
@@ -66,7 +63,6 @@
             android:id="@+id/etDateTime"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:hint="@string/datetime"
             android:importantForAutofill="no"
             android:inputType="datetime" />
@@ -76,7 +72,6 @@
             android:id="@+id/etMultiline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:hint="@string/multiline"
             android:importantForAutofill="no"
             android:inputType="textMultiLine" />
