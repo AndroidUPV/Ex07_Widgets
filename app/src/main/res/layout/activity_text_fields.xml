@@ -24,6 +24,8 @@
             android:id="@+id/tvLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="monospace"
             android:text="@string/label"
             android:textColor="@color/purple_500"
             android:textSize="24sp" />
@@ -58,7 +60,7 @@
             android:importantForAutofill="no"
             android:inputType="textPassword" />
 
-        <!-- Text field for dat and time -->
+        <!-- Text field for date and time -->
         <EditText
             android:id="@+id/etDateTime"
             android:layout_width="match_parent"

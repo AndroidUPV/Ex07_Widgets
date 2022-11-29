@@ -25,6 +25,15 @@
             android:layout_height="wrap_content"
             android:text="@string/regular_button" />
 
+        <!-- A regular button with an image -->
+        <Button
+            android:id="@+id/bRegularWithImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_with_image"
+            app:icon="@android:drawable/ic_menu_gallery"
+            app:iconGravity="start" />
+
         <!-- ToggleButton with custom ON/OFF text -->
         <ToggleButton
             android:id="@+id/tbToggle"

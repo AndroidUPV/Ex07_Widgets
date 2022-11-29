@@ -32,7 +32,7 @@ class ButtonsActivity : AppCompatActivity() {
             // Display a Toast informing about its check state
             Toast.makeText(
                 this@ButtonsActivity,
-                getString(R.string.switch_message, if (isChecked) "" else "un"),
+                getString(if (isChecked) R.string.switch_checked else R.string.switch_unchecked),
                 Toast.LENGTH_SHORT
             ).show()
         }
@@ -41,5 +41,6 @@ class ButtonsActivity : AppCompatActivity() {
         binding.ibImage.setOnClickListener {
             binding.rgGroup.clearCheck()
         }
+
     }
 }
