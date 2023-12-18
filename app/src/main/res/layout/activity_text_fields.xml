@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><!--
-  ~ Copyright (c) 2022
-  ~ David de Andrés and Juan Carlos Ruiz
-  ~ Development of apps for mobile devices
-  ~ Universitat Politècnica de València
+  ~ Copyright (c) 2022-2023 Universitat Politècnica de València
+  ~ Authors: David de Andrés and Juan Carlos Ruiz
+  ~          Fault-Tolerant Systems
+  ~          Instituto ITACA
+  ~          Universitat Politècnica de València
+  ~
+  ~ Distributed under MIT license
+  ~ (See accompanying file LICENSE.txt)
   -->
 
 <!-- A label (TextView) and different  text fields (EditText) -->
@@ -27,7 +31,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="monospace"
             android:text="@string/label"
-            android:textColor="@color/purple_500"
+            android:textColor="@color/purple"
             android:textSize="24sp" />
 
         <!-- Label displaying a coloured icon and some text -->
@@ -38,7 +42,7 @@
             android:text="@string/label_icon"
             android:textSize="20sp"
             app:drawableStartCompat="@android:drawable/ic_dialog_alert"
-            app:drawableTint="@color/teal_200" />
+            app:drawableTint="@color/teal" />
 
         <!-- Text field with no input constraints but with autocorrection -->
         <EditText
