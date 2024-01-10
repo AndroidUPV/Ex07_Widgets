@@ -28,9 +28,6 @@ class ButtonsActivity : AppCompatActivity() {
         // Set the activity content to the root element of the generated view
         setContentView(binding.root)
 
-        // Set the title of the Activity
-        setTitle(R.string.buttons)
-
         // This callback will be activated whenever the check state of the Switch changes
         binding.sSwitch.setOnCheckedChangeListener { _, isChecked ->
             // Display a Toast informing about its check state

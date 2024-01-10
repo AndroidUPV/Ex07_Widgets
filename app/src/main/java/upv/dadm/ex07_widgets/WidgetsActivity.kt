@@ -31,9 +31,6 @@ class WidgetsActivity : AppCompatActivity() {
         // Set the activity content to the root element of the generated view
         setContentView(binding.root)
 
-        // Set the title of the Activity
-        setTitle(R.string.widgets)
-
         // This callback will be activated whenever the checked state of the Switch changes
         binding.sSwitchProgress.setOnCheckedChangeListener { _, isChecked ->
             // The visibility of the ProgressBar is controlled by the checked state of the Switch

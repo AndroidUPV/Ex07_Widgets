@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:orientation="vertical">
-
         <!-- A regular button -->
         <Button
             android:id="@+id/bRegular"
@@ -113,6 +112,5 @@
             </RadioGroup>
 
         </LinearLayout>
-
     </LinearLayout>
 </ScrollView>

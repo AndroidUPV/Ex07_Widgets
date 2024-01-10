@@ -34,9 +34,6 @@ class TextFieldsActivity : AppCompatActivity() {
         // Set the activity content to the root element of the generated view
         setContentView(binding.root)
 
-        // Set the title of the Activity
-        setTitle(R.string.text_string)
-
         // Add a TextWatcher to react to any change in this TextView's text
         binding.etPassword.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
